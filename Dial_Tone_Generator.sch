@@ -152,12 +152,7 @@ Wire Wire Line
 Wire Wire Line
 	8250 5210 8250 5100
 Wire Wire Line
-	7720 5930 7960 5930
-Wire Wire Line
-	7960 5930 7960 5600
-Connection ~ 7960 5600
-Wire Wire Line
-	7960 5600 7570 5600
+	7720 5930 7880 5930
 $Comp
 L power:GND #PWR0103
 U 1 1 63F8B5F8
@@ -900,8 +895,6 @@ F 3 "~" H 8250 5930 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 8250 5600
-Wire Wire Line
-	7960 5600 8250 5600
 $Comp
 L power:GND #PWR0117
 U 1 1 640F7FCD
@@ -1052,6 +1045,21 @@ F 1 "MountingHole" H 810 7004 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 710 7050 50  0001 C CNN
 F 3 "~" H 710 7050 50  0001 C CNN
 	1    710  7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7570 5600 8250 5600
+Wire Wire Line
+	7880 5930 7880 6080
+$Comp
+L power:GND #PWR?
+U 1 1 6408C7C3
+P 7880 6080
+F 0 "#PWR?" H 7880 5830 50  0001 C CNN
+F 1 "GND" H 7885 5907 50  0000 C CNN
+F 2 "" H 7880 6080 50  0001 C CNN
+F 3 "" H 7880 6080 50  0001 C CNN
+	1    7880 6080
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
