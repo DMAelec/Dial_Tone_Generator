@@ -8,3 +8,5 @@ For convenience and economy, the circuit was designed with one CMOS quad op-amp 
 
 BASED ON SCHEMATIC FROM:
 https://www.theremin.us/Circuit_Library/dial_tone_generator.html
+
+![3DVIEW](Dial_Tone_Generator-3DVIEW.png)
